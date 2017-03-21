@@ -14,11 +14,11 @@ import RPi.GPIO as GPIO
 
 #GPIO stuff
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(5, GPIO.OUT)
-GPIO.setup(6, GPIO.OUT)
-GPIO.setup(13, GPIO.OUT)
-GPIO.setup(19, GPIO.OUT)
-GPIO.setup(26, GPIO.OUT)
+GPIO.setup(5, GPIO.OUT)#D4 Blue
+GPIO.setup(6, GPIO.OUT)#F Down
+GPIO.setup(13, GPIO.OUT)#A Right
+GPIO.setup(19, GPIO.OUT)#D5 Up
+GPIO.setup(26, GPIO.OUT)#B Left
 
 GPIO.output(5, GPIO.LOW)
 GPIO.output(6, GPIO.LOW)
